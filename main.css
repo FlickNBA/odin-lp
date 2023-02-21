@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap");
+
+* {
+    font-family: 'Roboto', sans-serif;
+    /*border: 1px solid rgba(255, 0, 0, 0.25);*/
+}
+
+body {
+    margin: 0;
+}
+
+header, footer {
+    background: #1F2937;
+}
+
+#hero div h1 {
+   margin-bottom: 0.5rem;
+}
+
+#sub {
+    width: 80%;
+}
+
+h1, h3, .main-cta {
+    color: #F9FAF8;
+}
+
+header nav h3 {
+    font-size: 24px;
+}
+
+header {
+    padding: 0 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+    display: inline-block;
+}
+
+/*nav h3, nav ul, nav ul li {
+    display: inline;
+}*/
+
+#hero {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero div {
+    flex: 1 0 50%;
+    padding: 1.5rem 0 6rem;
+}
+
+#hero div h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#hero div img {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: auto;
+}
+
+#hero div p, nav ul li a {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.margin-none {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-cta {
+    background-color: #3882F6;
+    border-radius: 0.25rem;
+    font-size: 18px;
+    padding: 0.5rem 1.5rem;
+}
+
+.main-cta:hover {
+    background-color: #0A58D6;
+}
+
+p a {
+    color: #3882F6;
+    font-weight: 400;
+}
+
+.text-center {
+    text-align: center;
+}
