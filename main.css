@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap");
 
 * {
-    font-family: 'Roboto', sans-serif;
-    /*border: 1px solid rgba(255, 0, 0, 0.25);*/
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -45,13 +44,14 @@ nav ul li {
 }
 
 main {
-    padding: 1rem 0;
+    padding: 1rem 0 5rem;
 }
 
 main h2 {
     color: #1F2937;
     font-size: 36px;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 #four {
@@ -65,8 +65,8 @@ main h2 {
 
 #four div .square {
     margin: 0 auto;
-    width: 80%;
-    padding-bottom: 80%;
+    width: 75%;
+    padding-bottom: 75%;
     position: relative;
 }
 
@@ -102,7 +102,8 @@ main h2 {
 #four div p {
     text-align: center;
     padding: 0.5rem 1rem;
-    font-size: 18px;
+    font-size: 21px;
+    font-weight: 300;
 }
 
 #hero {
@@ -165,4 +166,103 @@ p a {
 
 .text-center {
     text-align: center;
+}
+
+#quote {
+    padding: 2rem 15%;
+    background-color: #E5E7EB;
+}
+
+#quote h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    width: 80%;
+    margin-left: auto;
+}
+
+#quote h4 {
+    font-size: 24px;
+    text-align: right;
+    margin-right: 5%;
+}
+
+#cta {
+    padding: 6rem 15%;
+}
+
+.cta {
+    background-color: #3882F6;
+    border-radius: 0.75rem;
+    padding: 4rem 8rem;
+    display: flex;
+}
+
+.cta div {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta div h4, .cta div p {
+    margin: 0;
+}
+
+.cta > div:nth-child(1) {
+    justify-content: left;
+    flex: 2 1 auto;
+    color: #E5E7EB;
+}
+
+.cta div h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.cta div p {
+    margin-top: 0.5rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.cta > div:nth-child(2) {
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-cta {
+    border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 0.25rem;
+    font-size: 18px;
+    padding: 0.5rem 1.5rem;
+    transition-duration: 500ms;
+}
+
+.second-cta:hover {
+    background-color: #0A58D6;
+}
+
+footer p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+footer {
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+footer ul li {
+    margin: 0 1rem;
+    display: inline-block;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+footer ul li a {
+    color: #E5E7EB;
+    font-weight: 400;
 }
